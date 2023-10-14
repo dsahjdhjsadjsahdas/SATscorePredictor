@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAT Score Predictor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>SAT Score Predictor</h1>
+    </nav>
+
+    <div class="container">
+      <h1>Section 1 :</h1>
+      <div class="input">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          step="5"
+          id="section1slider"
+          class="inputslider"
+          oninput="OnSlider1Changed()"
+        />
+        <label for="section1slider" id="section1label">50%</label>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Section 2 :</h1>
+      <div class="input">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          step="5"
+          id="section2slider"
+          class="inputslider"
+          oninput="OnSlider2Changed()"
+        />
+        <label for="section2slider" id="section2label">50%</label>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Section 3 :</h1>
+      <div class="input">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          step="5"
+          id="section3slider"
+          class="inputslider"
+          oninput="OnSlider3Changed()"
+        />
+        <label for="section3slider" id="section3label">50%</label>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Section 4 :</h1>
+      <div class="input">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          step="5"
+          id="section4slider"
+          class="inputslider"
+          oninput="OnSlider4Changed()"
+        />
+        <label for="section4slider" id="section4label">50%</label>
+      </div>
+    </div>
+
+    <button id="calculate">Calculate</button>
+
+    <p id="prediction">Your predicted SAT score is:</p>
+
+    <script src="index.js"></script>
+  </body>
+</html>

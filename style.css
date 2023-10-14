@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@700&family=Inter:wght@400;600;700&family=Kanit&family=Martian+Mono&family=Nova+Square&family=Roboto+Condensed&family=Young+Serif&display=swap');
+
+
+:root{
+    --BGcolor: rgb(10,10,10);
+    --textColor: #FAB220;
+    --subtextColor: blue;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Young Serif";
+    color: var(--textColor);
+}
+
+body{
+    background-color: var(--BGcolor);
+}
+
+nav{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container h1{
+    color: var(--subtextColor)  
+}
+
+.container .input{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    margin:30px auto;
+}
+
+.container .input input{
+    width: 200px;
+}
+
+#calculate{
+    display: block;
+    margin:50px auto;
+    padding: 20px 40px;
+    font-size: 30px;
+    color: var(--textColor);
+    background-color: darkred;
+    border:none;
+    cursor: pointer;
+}
+
+#prediction
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
